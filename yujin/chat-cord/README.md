@@ -1,14 +1,14 @@
 # Real Chat APP with Rooms
 
-## project
+## project Desc.
 
-* 생성
+* create
     ```bash
     npm init
     ```
-* 설치
+* dependency
     ```bash
-    ## 일반
+    ## general
     npm i express
     npm i socket.io
     npm i moment
@@ -22,4 +22,24 @@
         "start": "node server",
         "dev": "nodemon server"
     },
+    ```
+* directory
+    ```text
+    /chat-cord
+        |--- [/node_modules]            [modules]
+        |--- package.json               [project 정보]
+        |--- package-lock.json          [modules 버전 정보]
+        |--- /public
+        |       |--- /css/style.css
+        |       |--- /js/main.js        [chat client]
+        |       |--- chat.html          [채팅 화면]
+        |       |--- index.html         [첫 화면]
+        |--- /utils
+        |       |--- /message.js        [메세지 format]
+        |       |--- /user.js           [chat-room 전체 users 관리]
+        |--- server.js                  [chat server]
+    ```
+* useage
+    ```bash
+    npm run dev
     ```
