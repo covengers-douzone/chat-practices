@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 **/node_modules
 
 .DS_Store
@@ -11,4 +9,3 @@
 **/.project
 **/.settings/
 **/target/
->>>>>>> 56b609cdfe883426c1df88e07a3632faa07008fb
