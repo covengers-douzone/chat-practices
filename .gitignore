@@ -1,6 +1,5 @@
 **/node_modules
 
-.DS_Store
 **/.idea
 **/build/
 **/.iml
@@ -9,3 +8,6 @@
 **/.project
 **/.settings/
 **/target/
+
+**/.DS_Store
+**/.desktop_ini
