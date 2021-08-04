@@ -21,7 +21,7 @@
     |       |--- css
     |       |     |--- style.css  
     |       |--- index.html
-    |--- app.js
+    |--- index.js
 </pre>
 
 3. scripts
@@ -33,7 +33,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
