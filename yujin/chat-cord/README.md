@@ -37,7 +37,7 @@
         |--- /utils
         |       |--- /message.js        [메세지 format]
         |       |--- /user.js           [chat-room 전체 users 관리]
-        |--- server.js                  [chat server]
+        |--- server.mjs                  [chat server]
     ```
 * useage
     ```bash
