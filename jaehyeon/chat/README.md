@@ -21,7 +21,7 @@
     |       |--- css
     |       |     |--- style.css  
     |       |--- index.html
-    |--- index.js
+    |--- index.mjs
 </pre>
 
 3. scripts
@@ -31,9 +31,9 @@
   "name": "chat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.mjs"
   },
   "keywords": [],
   "author": "",
