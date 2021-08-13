@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "src")));
 const PORT = process.env.PORT || 5000;
 
 io.on("connection", (socket)=>{
-    // chat.js 에서 보내는 메시지를 받음
+    // Chat.js 에서 보내는 메시지를 받음
     socket.on("chatting", (data) => {
         console.log(data);
         const {name, msg } = data;

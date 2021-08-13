@@ -17,7 +17,7 @@
     |--- node-modules
     |--- src
     |       |--- js
-    |       |     |--- chat.js
+    |       |     |--- Chat.js
     |       |--- css
     |       |     |--- style.css  
     |       |--- index.html
